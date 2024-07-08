@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>10단게 (구역지정)</title>
+    <title>8단게 (구역지정)</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/main.css">
   </head>
@@ -78,6 +78,14 @@
           </ul>
         </div>
         <!-- 메뉴Zone끝 -->
+        <div id="leftmenuZone">
+          <div id="left_menu_box">
+            <span class="">틀별함</span>
+            <ul>
+              <li class="left_menu"><a href="#">특뱌ㅕㄹ함</a></li>
+            </ul>
+          </div>
+        </div>
         <!-- 메뉴Zone끝 -->
         <!-- 슬라이더Zone시작 -->
         <style>
@@ -210,7 +218,7 @@
       </div>
       <!-- 상단Area끝 -->
       <!-- 본문Area시작 -->
-      <style>
+       <style>
         #BodyArea{
           position: relative;
           width: 100%;
@@ -221,82 +229,49 @@
         #leftmenuZone{
           float: left;
           width: 20%;
-          /* height: 70%; */
+          height: 70%;
         }
         #contentsZone{
           font:  right;
           width: 75%;
-          /* height: 70%; */
+          height: 70%;
         }
-        .content_title{
+       </style>
+       <style>
+        /* #leftmenuZone{
+          
+        } */
+         .left_menu_title{
           font-size: 32px;
-          padding: 10px  30px;
-          border-bottom: 5px solid gray;
-        }
-        .album{
-          border-top:1px solid green;
-        }
-        .album  td{
-          padding: 5px;
-          border-top:1px solid green;
-        }
+          font-weight: 800;
+           text-align: center; 
+          display: block;
+         }
+         .left_menu{
+          font-size: 20px;
+          color: gray;
+          padding-left: 15px;
+         }
+         .left_banner_title{
+          font-size: 32px;
+          font-weight: 800;
+           text-align: center; 
+          display: block;
+         }
+         .left_banner{
+          font-size: 20px;
+          color: gray;
+          padding-left: 15px;
+          text-align: center;
+         }
 
-      </style>
+       </style>
       <div id="BodyArea">
         <!-- 왼쪽메뉴Zone시작 -->
         <div id="leftmenuZone"></div>
         <!-- 왼쪽메뉴Zone끝 -->
         <!-- 내용Zone시작 -->
-        <div id="contentsZone">
-          <div class="content_title">특별함</div>
-          <div id="article" class="contents">
-            <h3>사계절 낭안이 있는 공에서 행복한 추억을 많이 만드러 가세요</h3>
-            <div id="article" class="contents">
-              <h3>사계절 낭만이 있는 곳에서 행복한 추억을 많이 만들어 가세요</h3>
-              <table  class="album" border="0" style="width: 100%;">
-                  <tr>
-                      <td>
-                          <a href="#">
-                              <img src="img/album_01.jpg" width="160" alt="">
-                          </a>
-                      </td>
-                      <td>
-                          <a href="#">
-                              비가 오나 눈이 오나 걱정없는 실내 바비큐장에서 사계절 편안하게 드세요~본 내용은 샘플로 작성되었으며 추후에 관리자가 펜션에 맞게 직접 내용을 등록하실 수 있습니다.  감사합니다.
-                              <div align="right">[<font style="color:#878787;font-size:12px;">작성일자 : 2015-12-27</font>, <font style="color:#878787;font-size:12px;">조회수 : 51</font>]</div>
-                          </a>
-                      </td>
-                  </tr>
-                  <tr>
-                      <td>
-                          <a href="#">
-                              <img src="img/album_01.jpg" width="160" alt="">
-                          </a>
-                      </td>
-                      <td>
-                          <a href="#">
-                              비가 오나 눈이 오나 걱정없는 실내 바비큐장에서 사계절 편안하게 드세요~본 내용은 샘플로 작성되었으며 추후에 관리자가 펜션에 맞게 직접 내용을 등록하실 수 있습니다.  감사합니다.
-                              <div align="right">[<font style="color:#878787;font-size:12px;">작성일자 : 2015-12-27</font>, <font style="color:#878787;font-size:12px;">조회수 : 51</font>]</div>
-                          </a>
-                      </td>
-                  </tr>
-                  <tr>
-                      <td>
-                          <a href="#">
-                              <img src="img/album_01.jpg" width="160" alt="">
-                          </a>
-                      </td>
-                      <td>
-                          <a href="#">
-                              비가 오나 눈이 오나 걱정없는 실내 바비큐장에서 사계절 편안하게 드세요~본 내용은 샘플로 작성되었으며 추후에 관리자가 펜션에 맞게 직접 내용을 등록하실 수 있습니다.  감사합니다.
-                              <div align="right">[<font style="color:#878787;font-size:12px;">작성일자 : 2015-12-27</font>, <font style="color:#878787;font-size:12px;">조회수 : 51</font>]</div>
-                          </a>
-                      </td>
-                  </tr>
-              </table>
-          </div>
-          </div>
-        </div>
+        <div id="contentsZone"></div>
         <!-- 내용Zone끝 -->
       </div>
       <!-- 본문Area끝 -->
